@@ -1,0 +1,27 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  background-color: rgba(250, 235, 215, 0.495);
+  // box-shadow: 10px 12px 15px -3px rgba(0, 0, 0, 0.5);
+  padding: 0.5rem;
+  gap: 1rem;
+  width: 15rem;
+
+  &__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 60%;
+
+    &__delete {
+      &:hover {
+        background-color: red !important;
+        color: white;
+      }
+    }
+  }
+}

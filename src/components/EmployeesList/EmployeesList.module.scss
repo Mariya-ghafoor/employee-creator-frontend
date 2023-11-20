@@ -1,0 +1,29 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.container {
+  // display: grid;
+  // grid-template-columns: repeat(auto-fill, minmax(186px, auto));
+  // gap: 2rem;
+  // justify-content: center;
+
+  // display: grid;
+  // grid-gap: 10px;
+  // grid-template-columns: repeat(auto-fill, 186px);
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  // :hover {
+  //   transform: scale(1.2);
+  // }
+}
