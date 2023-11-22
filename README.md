@@ -1,6 +1,6 @@
-## Dependencies
-
 # EMPLOYEE CREATOR APP (REACT + TYPESCRIPT)
+
+- The backend : https://github.com/Mariya-ghafoor/employee-creator-backend
 
 ## Demo
 
