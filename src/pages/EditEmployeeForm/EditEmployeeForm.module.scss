@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+  width: 100%;
+  height: 100%;
+  // justify-content: center;
+  // align-items: center;
+  // background-color: pink;
+}
+
+.field {
+  display: flex;
+  gap: 2rem;
+  width: 70%;
+  //border: solid 1px red;
+
+  // min-width: 0;
+  //background-color: yellow;
+}
+
+.label {
+  flex-grow: 1;
+  flex-basis: calc(100% / 2);
+  padding: 4px 8px;
+
+  // flex-basis: 100%;
+  // flex-grow: 0;
+  // width: 100%;
+}
+
+.input {
+  flex-grow: 1;
+  flex-basis: calc(100% / 2);
+  padding: 4px 8px;
+  border: solid 1px green;
+}

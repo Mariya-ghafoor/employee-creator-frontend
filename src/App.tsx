@@ -1,10 +1,11 @@
-import { useContext, useEffect, useState } from 'react'
+
 import './App.css'
 import EmployeesList from './components/EmployeesList/EmployeesList'
-import { Employee, getEmployees } from './services/EmployeeService'
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import AddEmployeeForm from './pages/AddEmployeeForm/AddEmployeeForm'
 import EmployeeContextProvider, { EmployeeContext } from './contexts/EmployeeContextProvider/EmployeeContextProvider'
+import EditEmployeeForm from './pages/EditEmployeeForm/EditEmployeeForm'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       {/* <Route path="/" element={<EmployeesList employees = {employees} />} /> */}
       <Route path="/" element={<EmployeesList />} />
       <Route path="/add-employee" element={<AddEmployeeForm />} />
+      <Route path="/edit-employee/:id" element={<EditEmployeeForm />} />
     </Routes>
     </EmployeeContextProvider>
     </BrowserRouter>

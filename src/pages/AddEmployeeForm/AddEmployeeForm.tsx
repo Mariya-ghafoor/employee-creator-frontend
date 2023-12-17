@@ -29,12 +29,11 @@ function AddEmployeeForm() {
         
   });
 
+
   const {register, reset, formState:{errors, isSubmitSuccessful }, handleSubmit, } = useForm({ resolver: yupResolver(schema)})
 
-  const onSubmit = (data : Employee ) => {
-    console.log(data)
+  const onSubmit = (data:Employee) => {
     setNewEmployee(data);
-    
   }
 
 
