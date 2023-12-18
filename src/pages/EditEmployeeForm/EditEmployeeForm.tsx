@@ -7,7 +7,6 @@ import { SetStateAction, useEffect, useState } from "react";
 import { Employee, addEmployee, editEmployee, getEmployeeById } from "../../services/EmployeeService";
 import Button from "../../components/Button/Button";
 import { useParams } from "react-router-dom";
-import { checked } from "glamor";
 
 function EditEmployeeForm() {
   const [employeeToEdit, setEmployeeToEdit] = useState<Employee | null>(null)
@@ -57,7 +56,6 @@ function EditEmployeeForm() {
   useEffect(()=>{
     console.log("going to get data")
     getEmployee();
-
   },[param.id])
 
   useEffect(()=>{

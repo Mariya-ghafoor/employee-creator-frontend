@@ -46,3 +46,7 @@ npm i @hookform/resolvers
 ## Future goals
 
 - Make expand and edit buttons functional
+- Write tests
+
+## Update
+- 17/12 - Edit button is now functional. When pressed it opens a page with the form filled with Employee information. User can now change parts of the information and update database accordingly. 
