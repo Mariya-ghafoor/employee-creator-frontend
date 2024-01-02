@@ -7,7 +7,7 @@ export interface Employee {
 }
 export const getEmployees = async (): Promise<Employee[]> => {
   const response = await fetch(
-    "https://employee-creator-backend-cxqr.onrender.com/employees"
+    "https://employee-creator-dr7r.onrender.com/employees"
   );
   const data = await response.json();
   console.log("all employees data is " + data);
@@ -18,7 +18,7 @@ export const getEmployeeById = async (
   employeeId: string
 ): Promise<Employee> => {
   const response = await fetch(
-    `https://employee-creator-backend-cxqr.onrender.com/employees/${employeeId}`
+    `https://employee-creator-dr7r.onrender.com/employees/${employeeId}`
   );
   const data = await response.json();
   // console.log("employee data: ",data)
@@ -27,7 +27,7 @@ export const getEmployeeById = async (
 
 export const addEmployee = async (data: unknown): Promise<unknown> => {
   const response = await fetch(
-    "https://employee-creator-backend-cxqr.onrender.com/employees",
+    "https://employee-creator-dr7r.onrender.com/employees",
     {
       method: "POST",
       headers: {
@@ -41,7 +41,7 @@ export const addEmployee = async (data: unknown): Promise<unknown> => {
 
 export const deleteEmployee = async (id: number): Promise<unknown> => {
   const response = await fetch(
-    `https://employee-creator-backend-cxqr.onrender.com/employees/${id}`,
+    `https://employee-creator-dr7r.onrender.com/employees/${id}`,
     {
       method: "DELETE",
     }
@@ -54,7 +54,7 @@ export const editEmployee = async (data: Employee): Promise<Employee> => {
   console.log("****data receieved in services " + data.type);
 
   const response = await fetch(
-    `https://employee-creator-backend-cxqr.onrender.com/employees/${data.id}`,
+    `https://employee-creator-dr7r.onrender.com/employees/${data.id}`,
     {
       method: "PATCH",
       headers: {
