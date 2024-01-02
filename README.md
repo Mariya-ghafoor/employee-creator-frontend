@@ -1,6 +1,9 @@
 # EMPLOYEE CREATOR APP (REACT + TYPESCRIPT)
 
+- Live: https://employee-creator.netlify.app/
 - The backend : https://github.com/Mariya-ghafoor/employee-creator-backend
+
+\*\*\* The website is live with the MySql database and Spring boot backend hosted on cloud.
 
 ## Demo
 
@@ -49,4 +52,7 @@ npm i @hookform/resolvers
 - Write tests
 
 ## Update
-- 17/12 - Edit button is now functional. When pressed it opens a page with the form filled with Employee information. User can now change parts of the information and update database accordingly. 
+
+- 17/12 - Edit button is now functional. When pressed it opens a page with the form filled with Employee information. User can now change parts of the information and update database accordingly.
+
+- 02/01 - The website is now live with React frontend, Spring boot backend and MySql database all hosted on cloud!
