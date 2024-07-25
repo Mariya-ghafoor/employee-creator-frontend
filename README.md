@@ -3,7 +3,7 @@
 - Live: https://employee-creator.netlify.app/
 - The backend : https://github.com/Mariya-ghafoor/employee-creator-backend
 
-\*\*\* The website is live with the MySql database and Spring boot backend hosted on cloud.
+\*\*\* The website is live with the MySql database and Spring boot backend hosted on cloud. Please wait for a few minutes for the data to load. The database is hosted on a free tier so takes some time before being available.
 
 ## Demo
 
