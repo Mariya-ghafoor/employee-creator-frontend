@@ -33,7 +33,11 @@ function EmployeesList() {
             ))}
         </div>
       ) : (
-        <div>There are no employees in the database</div>
+        <div>
+          Please wait for the data to load. As the database is hosted on a free
+          tier it will take few minutes before being available. Thanks for your
+          patience.
+        </div>
       )}
     </div>
   );

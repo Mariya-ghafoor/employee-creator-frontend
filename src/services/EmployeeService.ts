@@ -10,7 +10,7 @@ export const getEmployees = async (): Promise<Employee[]> => {
     "https://employee-creator-dr7r.onrender.com/employees"
   );
   const data = await response.json();
-  console.log("all employees data is " + data);
+  //console.log("all employees data is " + data);
   return data;
 };
 
